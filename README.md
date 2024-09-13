@@ -1,0 +1,1 @@
+This is a collection of basic c++ alogrithmic problems that have been completed. I created a generic class that allowed me to check if my functions had the correct output. No chatgpt was used in this case as I wanted to develop my knowledge and actually solve these problems.
