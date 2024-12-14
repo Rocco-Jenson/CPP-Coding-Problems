@@ -16,13 +16,14 @@ private:
   const char* fn_name;
 
 public:
+  /* FunctionControl tests input vs answer and prints result */
   FunctionControl(FN_ARG res, FN_ARG arg, const char* name) : fn_result(res), fn_argument(arg), fn_name(name) {
-  if (fn_result != fn_argument) {
-      std::cout << fn_name << " Err" << std::endl;
-    } else {
-      std::cout << fn_name << " Passed" << std::endl;
+    if (fn_result != fn_argument) {
+        cout << fn_name << " Err" << endl;
+      } else {
+        cout << fn_name << " Passed" << endl;
+      }
     }
-  }
 };
 
 /*
